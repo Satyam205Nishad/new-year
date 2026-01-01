@@ -1,0 +1,29 @@
+body{
+  font-family: 'Comic Sans MS', cursive;
+  text-align:center;
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  margin:0;
+}
+img{
+  width:260px;
+}
+button{
+  padding:10px 25px;
+  border-radius:25px;
+  border:2px solid #000;
+  background:white;
+  font-size:18px;
+  transition:0.3s;
+}
+button:hover{
+  transform:scale(1.1);
+  cursor:pointer;
+}
+p{
+  font-size:20px;
+}
